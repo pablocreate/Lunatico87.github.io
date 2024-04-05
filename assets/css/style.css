@@ -1,0 +1,54 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /*nav */
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: #43abf2;
+  }
+  
+  
+  /* Hero Section */
+  
+  #Hero-Section {
+    background-image: url("../img/bg-beto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  h1{
+    text-shadow: 5px 5px 10px #272730;
+  }
+  .sombra {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
