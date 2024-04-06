@@ -15,11 +15,12 @@ body {
   
   /* Hero Section */
   
-  #Hero-Section {
+  #About_me {
     background-image: url("../img/bg-beto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    
   }
   
   h1{
