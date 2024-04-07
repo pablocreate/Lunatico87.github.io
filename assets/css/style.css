@@ -5,17 +5,17 @@ body {
   /*nav */
   
   .navbar-dark .navbar-nav .nav-link{
-    color: #43abf2;
+    color: #194360;
     
   }
   .navbar-toggler, .navbar-toggler-icon {
-    color: #43abf2;
+    color: #194360;
 
   }
   
   /* Hero Section */
   
-  #About_me {
+  #about_me {
     background-image: url("../img/bg-beto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@ body {
     align-items: center;
     background-color:white;
     border-radius: 50%;
-    border: 2px solid #43abf2;  
+    border: 2px solid #194360;  
     margin: 10px auto;
     width: 140px; 
     height: 140px;
@@ -50,33 +50,52 @@ body {
 
   /* Mis trabajos */
   
-  .experience {
+  .my_experience {
     background-color: #194360;
     padding: 3rem 0;
     color: white;
     
   }
 
-  #experience .image-top {
+  
+
+  .my_experience .icono {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .my_experience .py-5{
+    padding-bottom: 1rem !important;
+  }
+
+  /* Portfolio */
+
+  #portfolio .image-top {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .experience .icono {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+  .carousel-item {
+    background-color: #194360;
   }
-  
+.carousel-item img{
+  opacity: 0.5;
+}
   /* Contacto */
-  
-  #Contacto form label {
+  #contact_me {
+    background-color:#194360 ;
+    color: white;
+  }
+  #contact_me form label {
     font-weight: 700;
-    color: #373a3c;
+    color: white;
   }
   
+  #contact_me .form{
+padding-bottom: 5rem;
+  }
   @media (max-width: 768px) {
     #Contacto form label {
       font-weight: 400;
