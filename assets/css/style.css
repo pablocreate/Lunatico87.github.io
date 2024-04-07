@@ -37,9 +37,7 @@ body {
     align-items: center;
     background-color:white;
     border-radius: 50%;
-    border: 2px solid #43abf2;
-    
-    
+    border: 2px solid #43abf2;  
     margin: 10px auto;
     width: 140px; 
     height: 140px;
@@ -52,7 +50,14 @@ body {
 
   /* Mis trabajos */
   
-  #Mis-trabajos .image-top {
+  .experience {
+    background-color: #194360;
+    padding: 3rem 0;
+    color: white;
+    
+  }
+
+  #experience .image-top {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
