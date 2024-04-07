@@ -30,6 +30,26 @@ body {
     text-shadow: 2px 2px 5px #000000;
   }
   
+  /* Education */
+  .img-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-radius: 50%;
+    border: 2px solid #43abf2;
+    
+    
+    margin: 10px auto;
+    width: 140px; 
+    height: 140px;
+  }
+  .img-circle img{
+    display: block;
+    width: 80%;
+
+  }
+
   /* Mis trabajos */
   
   #Mis-trabajos .image-top {
